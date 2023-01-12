@@ -1,0 +1,2 @@
+.readme.md/
+.git_cheet_sheet
