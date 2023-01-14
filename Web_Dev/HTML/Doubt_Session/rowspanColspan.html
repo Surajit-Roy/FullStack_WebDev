@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .cl{
+            background-color: rgb(227, 227, 106);
+        }
+        .Blue{
+            background-color: rgb(101, 101, 245);
+        }
+        .green{
+            background-color: rgb(100, 197, 100);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2" class="cl">08:00 am</td>
+                <td rowspan="2" class="Blue">05:00 am</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td class="cl">8:00 am</td>
+                <td class="cl">11:00 am</td>
+                <td>Xpath</td>
+            </tr>
+            <tr>
+                <td class="cl">11:00 am</td>
+                <td class="green">2:00 pm</td>
+                <td rowspan="2">XSL Transformations</td>
+            </tr>
+
+            <tr>
+                <td class="green">2:00 pm</td>
+                <td class="Blue">5:00 pm</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td class="cl">8:00 am</td>
+                <td class="green">12:00 pm</td>
+                <td>XSL Transformations</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
