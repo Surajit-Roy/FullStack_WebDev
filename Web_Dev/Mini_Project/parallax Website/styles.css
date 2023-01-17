@@ -21,11 +21,11 @@
 }
 
 .background{
-    transform: translateZ(-40px) scale(5);
+    transform: translateZ(-7vh) scale(5);
 }
 
 .foreground{
-    transform: translateZ(-20px) scale(3);
+    transform: translateZ(-3.5vh) scale(3);
 }
 
 .background, .foreground{
@@ -39,9 +39,8 @@
 h1{
     position: absolute;
     top:5rem;
-
     font-size:10rem;
-    letter-spacing:4px;
+    letter-spacing:1vh;
     color:white;
     text-shadow:0 0 10px rgba(0,0,0,0.3);
 }
@@ -77,7 +76,7 @@ section{
     background-color: white;   
     padding: 0.5rem 2.5rem;
     top:50%;
-    left:50%;
+    left:60%;
     transform: translateX(-50%) translateX(-50%);
     color:black;
     font-size:3.5rem;
@@ -85,15 +84,45 @@ section{
 }
 
 .bg1{
-    background-image: url(sport-1.jpg);
+    background-image: url(parallax_website/sport-1.jpg);
 }
 
 .bg2{
-    background-image: url(sport-2.jpg);
+    background-image: url(parallax_website/sport-2.jpg);
 }
 
 .bg3{
-    background-image: url(sport-3.jpg);
+    background-image: url(parallax_website/sport-3.jpg);
 }
 
+@media(max-width:70vh){
+    h1{
+        position: absolute;
+        top:3rem;
+        font-size:3rem;
+        letter-spacing:4px;
+        color:white;
+        text-shadow:0 0 10px rgba(0,0,0,0.3);
+    }
+    .text{
+        font-size: 1rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .secHeading{
+        font-size:2rem;
+        padding:0 5rem;
+    }
+
+    .desc{
+        position: absolute;
+        background-color: white;   
+        padding: 0.5rem 2.5rem;
+        top:50%;
+        left:70%;
+        transform: translateX(-50%) translateX(-50%);
+        color:black;
+        font-size:2rem;
+        font-weight:600;
+    }
+}
 
