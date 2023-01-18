@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#wrapper{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    padding:30px 60px;
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    color: rgba(0, 0, 0, 0.378);
+}
+
+.header b{
+    font-size: 35px;
+}
+
+.header i{
+    color: rgba(0, 0, 0, 0.378);
+}
+sub{
+    color: rgba(0, 0, 0, 0.378);
+    font-weight: 200;
+}
+
+.container .content{
+    display: grid;
+    margin-top: 30px;
+    grid-gap: 30px;
+    grid-template-columns: 70% 30%;
+}
+
+.content .main .box-1 h1{
+    font-size: 40px;
+}
+
+.content a{
+    color: cornflowerblue;
+}
+.content .main .box-1 .high{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.content .main .box-3 .block{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.content .main .box-4 ul{
+    padding:0 30px;
+}
+
+.content .main .box-4 ol{
+    padding: 0 30px;
+}
+
+.scroll .about{
+    background-color: rgba(0, 0, 0, 0.083);
+    padding: 10px;
+}
+
+.scroll ul li{
+    list-style: none;
+}
+
+.footer span{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.footer .sp1{
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+
+.footer .sp2{
+    color: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="header">
+                <a href="#">Subscribe</a>
+                <b><u>Blog Title</u></b>
+                <p><i class="fa fa-search"></i></p>
+            </div>
+            
+            <div class="content">
+                <div class="main">
+                    <div class="box-1">
+                        <h1>Sample blog post</h1>
+                        <sub>January 1,2014 by <a href="#">Mark</a> </sub>
+                        <br>
+                        <br>
+                        <p>This blog post shows a few different type of content that's supported and styled 
+                            with Bootstrap. Basic typography, images and code are all supported.
+                        </p>
+                        <br>
+                        <hr>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum optio nam, veniam aliquid, labore impedit alias eius delectus necessitatibus adipisci, quis assumenda magni saepe dolores ullam unde fuga ut reiciendis.
+                        Qui inventore odio, s, corporis laborum fugiat quia exercitationem suscipit nemo neque blanditiis a dolore, corrupti cum! Distinctio veniam esse repellat neque itaque quibusdam numquam sint!</p>
+                        
+                        <br>
+                        <p class="high">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id autem rem atque omnis perferendis molestias nobis, vitae nulla hic odit praesentium impedit perspiciatis, tempore aliquid. Incidunt, nemo laborum? Sit, perferendis!
+                        </p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis soluta minus, ut nulla eius quidem voluptate adipisci. Debitis, corrupti, culpa provident ea tempora enim eos itaque, est perspiciatis ipsam eligendi.</p>
+                    </div>
+                    <br>
+
+                    <div class="box-2">
+                        <h1>Heading</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius maxime nostrum reprehenderit aliquid nam velit quo! Exercitationem sint magnam numquam refdvgrdcb bfdrgfdeegtgb  reiciendis ea quia tempora rem, expedita fuga corporis, qui sit!</p>
+                    </div>
+                    <br>
+
+                    <div class="box-3">
+                        <h1>Sub-heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur Iure dolores culpa quam excepturi delectushic consequatur libero.</p>
+                        <br>
+                        <p class="block">Example code block</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci magni deserunt facere nesciunt repellat officiis, sequi quis architecto impedit molestias neque rem pariatur sint nulla dolore molestiae tempore, a minus!</p>
+                    </div>
+                    <br>
+
+                    <div class="box-4">
+                        <h1>Sub-heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eum placeat voluptatum vero animi harum dolor? Modi laboriosam eaque nostrum nobis commodi quos iure, amet ipsam, inventore provident harum temporibus.
+                            A dolorum molestias distinctio, delectus, provident doloremque eos veniam aperiam ipsa quidem eaque nemo sequi minus eum ducimus praesentium dignissimos enim optio deserunt? At animi quidem provident mollitia ut eligendi.</p>
+                            <br>
+                            <ul>
+                                <li>Lorem ipsuconsectetur, adipisicing elit. Nulla ipsum quia laboriosam quibusdam ex</li>
+                                <li>Lorem ipsum dolor sit amet conboriosam quibusdam ex</li>
+                                <li>Lorem ipsusectetur, adipisici</li>
+                            </ul>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam vitae dicta molestiae veritatis, harum eligendi dignissimos incidunt</p>
+                            <br>
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cupiditate, qui</li>
+                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio rerum possimus mollitia. Rerum ut animi </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quam du</li>
+                            </ol>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatum, error aliquid blanditiis veniam debitis labore minus te</p>
+                    </div>
+                </div>
+
+                <div class="scroll">
+                    <div class="about">
+                        <h2><i>About</i></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptatibus dicta vitae nisi aliquid illum totam nostrum modi eligendi, qui similique odit voluptatum animi dolore, cumque ducimu</p>
+                    </div>
+                    <br>
+                    <div class="archive">
+                        <h2><i>Archives</i></h2>
+                        <ul>
+                            <li><a href="">March 2014</a></li>
+                            <li><a href="">February 2014</a></li>
+                            <li><a href="">January 2014</a></li>
+                            <li><a href="">December 2013</a></li>
+                            <li><a href="">November 2013</a></li>
+                            <li><a href="">October 2013</a></li>
+                            <li><a href="">September 2013</a></li>
+                            <li><a href="">August 2013</a></li>
+                            <li><a href="">July 2013</a></li>
+                            <li><a href="">June 2013</a></li>
+                            <li><a href="">May 2013</a></li>
+                            <li><a href="">April 2013</a></li>
+                        </ul>
+                    </div>
+                    <br>
+
+                    <div class="else">
+                        <h2><i>Elsewhere</i></h2>
+                        <ul>
+                            <li><a href="">GitHub</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Facebook</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div class="footer">
+                <span class="sp1">Older Post</span>
+                <span class="sp2">Newer Post</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
