@@ -660,8 +660,39 @@ a{
 
 
   @media (max-width:1200px) {
-    
+      .nav-items {
+        padding: 0 8em;
+      }
 
+      /* hero Section */
+      .hero-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: -1rem;
+        padding-bottom: 3rem;
+      }
+      .hero-section-description {
+        text-align: center;
+        margin: auto;
+      }
+      .faded-text {
+        display: none;
+      }
+      #btn-top {
+        display: none;
+      }
+      #btn-bottom {
+        margin-top: -7rem;
+        display: block;
+      }
+      .hero-section-right {
+        margin-top: -6em;
+        scale: 0.7;
+      }
+
+      /* project section  */
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
@@ -718,74 +749,76 @@ a{
       scale: 0.55;
     }
 
-    .skills-container{
-      width: 100%;
-      display: flex;
+    /* skills section  */
+    .skills-container {
+      margin: 0;
+      padding: 2em;
       flex-direction: column;
     }
-    .skill-heading{
-      margin: 0;
-      padding: 0;
+    .skill-heading {
+      font-size: 40px;
+      font: bold;
+    }
+    .caps {
+      font-size: 60px;
+    }
+    .skill-container-left {
+      width: 100%;
+    }
+    .skill-container-right {
+      width: 100%;
+    }
+    .skills-logo {
+      width: 50px;
+    }
+    .skill-fade-text {
+      display: none;
+    }
+    .skill-subHeading {
+      width: 100%;
+    }
+    .skill-heading::after {
+      bottom: 9%;
+    }
+
+    /* contactUs section  */
+    .contactus-heading {
+      font-size: 40px;
+      text-align: center;
+      padding: 15px 10px;
+    }
+    .contactus-sub-heading {
       font-size: 20px;
+      padding: 0 10px;
+      text-align: center;
     }
-    .caps{
+    .form {
+      width: 100%;
       margin: 0;
-      padding: 0;
-      font-size: 30px;
+      align-items: center;
     }
-    .skill-subHeading{
-      font-size: 1rem;
+    .formfield-container {
+      display: flex;
+      align-items: center;
+      width: 90%;
     }
-    .skill-fade-text{
-      font-size: 0.2rem;
-    }
-    .blob-style{
-      width: 100%;
-    }
-    .skills-logo{
-      width: 10px;
-      height: 40px;
+    .formfield {
+      width: 90%;
     }
 
-    .contactus-heading{
-      padding-left: 5px;
-      padding-right: 1px;
-      font-size:100%;
+    /* footer section  */    
+    footer {
+      padding: 0.5rem;
     }
-    .contactus-sub-heading{
-      padding-left: 5px;
-      padding-right: 0;
-      font-size:100%;
+    .footer-wrapper {
+      flex-direction: column;
+      gap: 1.5rem;
     }
-    .contactus-form-container{
-      width: 100%;
-    }
-    .form{
-      width: 100%;
-    }
-    #submit-btn{
-      font-size: 100%;
-    }
-    .submit-icon{
-      font-size: 100%;
-    }
-
-    footer{
-      max-width: 100%;
-    }
-    .footer-wrapper{
-      max-width: 100%;
-    }
+    /* .footer-faded-text {
+      display: none;
+    } */
     .footer-faded-text{
       font-size: 200%;
     }
-    .link-wrapper{
-      max-width: 100%;
-      flex-direction: column;
-    }
-    .icon-wrapper{
-      width: 100%;
-      flex-direction: column;
-      font-size: 1px;
-    }
   }
+  
