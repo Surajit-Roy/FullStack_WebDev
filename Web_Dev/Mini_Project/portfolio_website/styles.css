@@ -767,7 +767,8 @@ footer {
     /* display: none; */
     width: 20%;
     margin-bottom: 8px;
-    font-size: small;
+    margin-left: 10px;
+    font-size: 14px;
   }
 }
 /* Footer End */
